@@ -22,7 +22,7 @@ XLM-R 编码整句话，为每个子词输出一个向量，程序根据 start/e
 
 3. 将结果归一化。
 
-得到：$z_{bank} \in \mathbb{R}^{1024}$
+得到：$z_{bank} \in \mathbb{R}^{1024}$  ![分类头公式](images/formula.png)
 
 虽然只取 bank 位置的输出，但这个向量已经融合了整句上下文。 因此，“存钱句中的 bank”和“河边句中的 bank”可以得到不同向量。
 
