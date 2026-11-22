@@ -32,7 +32,7 @@ $$
 
 ### 3、分类头预测当前词义
 
-将$$z_{bank}$$输入 bank 专属的分类头：![分类头公式](images/formula.png)
+将 z<sub>bank</sub> 输入 bank 专属的分类头：![分类头公式](images/formula.png)
 
 假设这里的bank只有两个词义。
 
